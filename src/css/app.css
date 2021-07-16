@@ -12,8 +12,8 @@
 }
 
  */
-Nav.search-bar{
-    width: 400px;
+#search-bar{
+    width: 300px;
   
    
 } 
@@ -55,6 +55,7 @@ Nav.search-bar{
     color: #84b405;
     
 }
+
 .navElements{
     align-items: center;
 }
@@ -63,6 +64,7 @@ Nav.search-bar{
     display: flex;
  
     flex-wrap: wrap;
+    margin-left: 40px;
  
 }
 .car{
@@ -76,8 +78,9 @@ Nav.search-bar{
     align-items: center;
     width:400px;
     height: 400px;
-    min-width: 50%;
+    /* min-width: 50%; */
     justify-content: center;
+    align-items: center;
   
 }
 .car img{
@@ -113,4 +116,32 @@ Nav.search-bar{
 
   .sr-only{
       display: none;
+  }
+
+  @media screen and (max-width:1400px){
+    .car{
+        width:400px;
+        height: 400px;
+    }
+    
+    #responsive-navbar-nav {
+     
+        padding: 20px;
+    }
+}
+  @media screen and (min-width:500px) and (max-width:992px){
+    .car{
+        width:400px;
+        height: 400px;
+    }
+
+    #responsive-navbar-nav {
+        position: absolute;
+        z-index: 999;
+        background: #212529;
+        right: 157px;
+        padding: 20px;
+    }
+
+
   }

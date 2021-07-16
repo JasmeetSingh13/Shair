@@ -15,6 +15,8 @@ import tesla2 from '../images/teslaModels2.png';
 import { Container } from 'react-bootstrap';
 import { Carousel } from 'react-bootstrap';
 
+
+
 const MAKE = 'Make';
 const VEHICLE_TYPE = 'Vehicle Type';
 
@@ -160,7 +162,7 @@ const getSearch = e => {
       <div className="search-Form">
           <Nav>
     <Form onSubmit={getSearch} className="d-flex">
-      <FormControl  type="text" placeholder="Search" className="mr-2 search-bar" value ={searchTerm} onChange={updateSearch}/>
+      <FormControl  type="text" placeholder="Car, Type, Make, Tesla" className="mr-2 " id="search-bar" value ={searchTerm} onChange={updateSearch}/>
       <Button className="searchBtn"variant="outline-success">Search</Button>
     </Form>
     </Nav>
@@ -232,6 +234,8 @@ const getSearch = e => {
 </Navbar>
 
 {/* ********************************** TYPES*********************** */}
+
+
 <div id="types"className="cars">{
     type&&type.slice(0,9).map((ty)=>{
                     
