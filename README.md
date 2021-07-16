@@ -2,7 +2,8 @@
 ## Summary
 
 The goal of this test is to  Make a react application with a fully functional search bar, filters, and a results area. 
-The aim is to fetch the Vehicles data from the API and display it with fully functional, responsive Website.
+The aim is to fetch the Vehicles data from the API and display  fully functional, responsive Website.
+The user should be able search the specific vehicle make , type. Moreover, with Dropdowns user can filter the data according to different makes and types. 
 
 
 ### Routes
@@ -26,3 +27,5 @@ The aim is to fetch the Vehicles data from the API and display it with fully fun
 * Bootstrap
 * ReactJs
 
+### Package Manager
+* Yarn
