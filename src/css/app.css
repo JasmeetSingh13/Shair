@@ -1,0 +1,116 @@
+#app{
+    min-height:100vh;
+  
+}
+/* .
+
+/* .search-Form{
+     min-width: 50%;
+    margin: auto; 
+     
+
+}
+
+ */
+Nav.search-bar{
+    width: 400px;
+  
+   
+} 
+ .searchBtn{
+    
+    margin-left: 20px;
+       color: #93cb00;
+       border:1px solid #93cb00 ;
+   } 
+.searchBtn:hover{
+   background-color: #84b405;
+}
+.navbar{
+    min-height:100px;
+    max-height: 200px;
+}
+.logo img{
+    margin-top: 5px;
+
+}
+/* .Nav-Dropdown-item{
+  color: #84b405; ;
+} */
+#dropdownMakes{
+    color: white;
+ 
+    margin: 0  20px; 
+
+}
+
+#dropdownMakes:hover{
+    color: #84b405;
+}
+#dropdownTypes{
+    color: white;
+    margin: 0  20px; 
+}
+#dropdownTypes:hover{
+    color: #84b405;
+    
+}
+.navElements{
+    align-items: center;
+}
+
+.cars{
+    display: flex;
+ 
+    flex-wrap: wrap;
+ 
+}
+.car{
+    border-radius:10px;
+    box-shadow: 0px 5px 10px rgb(121, 119, 119);
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+    width:400px;
+    height: 400px;
+    min-width: 50%;
+    justify-content: center;
+  
+}
+.car img{
+    width:70%;
+}
+.name-model h3{
+    display: inline-block !important;
+    font-family: 'Raleway', sans-serif;
+    color: #212529;
+  
+}
+.name-model h4{
+    display: inline-block !important;
+    margin-left: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    size: 40%;
+    color: #729a04;
+}
+.VTName h5{
+    color: #212529;
+    margin-left: 15px;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+}
+.VTName h5 span{
+    
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    color: #729a04;
+    font-weight: 100;
+}
+
+  .sr-only{
+      display: none;
+  }
