@@ -1,5 +1,5 @@
-# Shair ##
-Summary
+## Shair 
+# Summary
 
 The goal of this test is to  Make a react application with a fully functional search bar, filters, and a results area. 
 The aim is to fetch the Vehicles data from the API and display it with fully functional, responsive Website.
